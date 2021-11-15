@@ -13,6 +13,7 @@ target_link_libraries(${PROJECT_NAME}
 
 # copy all needed files (including test data and dlls) to binary dir (when cmake)
 file(GLOB files_needed 
+    config
     test/data
     bin/*.dll
 )

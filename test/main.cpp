@@ -5,7 +5,7 @@
 int main(int argc, char **argv)
 {
   // load config params
-  if (!LoadConfigParams("./data/topotag_detection_params.yml")) {
+  if (!LoadConfigParams("./config/topotag_detection_params.yml")) {
     return -1;
   }
 

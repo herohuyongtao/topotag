@@ -1,6 +1,6 @@
 %YAML:1.0
 ## input files
-tagModelFile: "./data/Topotag_3x3_circle_model.dat"      # [STRING]
+tagModelFile: "./config/Topotag_3x3_circle_model.dat"      # [STRING]
 
 ## tag setup
 tagBitSize: 3
