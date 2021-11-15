@@ -12,7 +12,7 @@ TopoTag is a robust and scalable topological fiducial marker system, which suppo
 ## How to run
 Refer to the test script `test/main.cpp` on how to use the library. 
 > Remarks: 
-> 1. Make sure to set **`tagModelFile`** and **`tagBitSize`** in file `test/data/topotag_detection_params.yml` to match the TopoTag family you want to use. For example, the provided sample image is using 3x3 circular TopoTag, so `tagModelFile` and `tagBitSize` are set to be `Topotag_3x3_circle_model.dat` and `3` respectively.
+> 1. Make sure to set **`tagModelFile`** and **`tagBitSize`** in file `config/topotag_detection_params.yml` to match the TopoTag family you want to use. For example, the provided sample image is using 3x3 circular TopoTag, so `tagModelFile` and `tagBitSize` are set to be `Topotag_3x3_circle_model.dat` and `3` respectively.
 > 2. Current library only supports **Win32** target architecture (e.g., select **Win32** for the "Optional platform for generator" when CMake).
 
 
